@@ -14,12 +14,12 @@ This project implements a local, privacy-focused AI chatbot using **DeepScaleR**
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Requirements
 
-- Python
+- [Python 3.8+](https://www.python.org/)
 - FastAPI
-- Gradio
-- Ollama (for local inference)
+- Gradio (`pip install gradio`)
+- [Ollama](https://ollama.com) (installed and running)
 - DeepScaleR model
 
 ---
@@ -73,14 +73,12 @@ python chatbot_ui.py
 
 ---
 
-## 📄 Modelfile Example
-
-```
-FROM deepscaler
-SYSTEM "You are a helpful and friendly AI chatbot. Respond in a conversational and engaging manner."
-```
+## 📸 Preview
+Friendly AI chatbot. Respond in a conversational and engaging manner.
+<img width="820" alt="Chatbot" src="https://github.com/user-attachments/assets/deda382d-b81a-49e0-9b20-132a1b9231e2" />
 
 ---
+
 
 ## 🙌 Credits
 
